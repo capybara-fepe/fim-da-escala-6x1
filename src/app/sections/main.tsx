@@ -1,15 +1,17 @@
 export default function Main() {
 	return (
-		<div className="space-y-8 mb-8 h-screen flex flex-col justify-center items-center ">
-			<h1 className="text-7xl font-guildhall w-3xs md:w-full md:max-w-6xl md:text-9xl md:text-center">
+		<div className="grid grid-cols-4 md:grid-cols-12 gap-6 h-screen content-center ">
+			<h1 className="text-7xl col-span-full font-guildhall md:text-9xl md:col-start-2 md:col-span-10 text-center">
 				Fim da escala 6x1
 			</h1>
-			<a
-				className="font-fira-sans py-6 bg-white text-black w-3xs text-center font-bold rounded-full md:text-xl"
-				href="#"
-			>
-				PRESSIONE JÁ
-			</a>
+			<div className="col-span-full flex justify-center">
+				<a
+					className="py-5 bg-white text-black text-center font-bold rounded-full lg:text-xl w-48"
+					href="#"
+				>
+					PRESSIONE JÁ
+				</a>
+			</div>
 		</div>
 	)
 }
