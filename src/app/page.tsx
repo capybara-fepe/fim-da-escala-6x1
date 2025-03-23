@@ -3,7 +3,7 @@ import Main from './sections/main'
 
 export default function Page() {
 	return (
-		<div className="p-8 md:p-0 font-fira-sans">
+		<div className="p-8 font-fira-sans">
 			<Main />
 			<Forms />
 		</div>

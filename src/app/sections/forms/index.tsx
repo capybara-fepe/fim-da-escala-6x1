@@ -2,19 +2,21 @@ import EmailBadge from './email-badge'
 
 export default function Forms() {
 	return (
-		<div className="w-full">
-			<div className="flex flex-col lg:flex-row gap-8 lg:justify-center">
-				<div className="space-y-4 md:w-96">
-					<h2 className="font-guildhall text-4xl">Pressione!</h2>
-					<p className="text-gray-300">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-						facere odio similique assumenda dolorum aut ipsam deleniti
-						voluptatum quidem obcaecati! Ipsum accusantium recusandae temporibus
-						molestiae ea repudiandae iste dolor incidunt?
-					</p>
-				</div>
+		<div className="grid grid-cols-12 gap-6">
+			<div className="space-y-4 col-span-full lg:col-span-5 lg:col-start-2">
+				<h2 className="font-guildhall text-4xl md:5xl lg:text-6xl">
+					Vamos pressionar!
+				</h2>
+				<p className="text-gray-300">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+					facere odio similique assumenda dolorum aut ipsam deleniti voluptatum
+					quidem obcaecati! Ipsum accusantium recusandae temporibus molestiae ea
+					repudiandae iste dolor incidunt?
+				</p>
+			</div>
 
-				<form action="" className="bg-gray-100 p-6 space-y-6 text-black">
+			<div className="col-span-full lg:col-span-5">
+				<form action="" className="bg-gray-100 p-6 space-y-5 text-black  ">
 					<div className="space-y-5">
 						<div className="space-y-2">
 							<label htmlFor="" className="block font-semibold">
@@ -74,9 +76,9 @@ export default function Forms() {
 								placeholder="Digite aqui"
 								className="p-2 border-2 border-black w-full rounded-sm placeholder:text-gray-400 min-h-28"
 								defaultValue="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-								unde, ab repudiandae molestias facere cum, numquam corporis ipsa
-								rem explicabo ducimus pariatur accusamus earum cupiditate. Nisi
-								provident labore voluptas itaque?"
+									unde, ab repudiandae molestias facere cum, numquam corporis ipsa
+									rem explicabo ducimus pariatur accusamus earum cupiditate. Nisi
+									provident labore voluptas itaque?"
 							/>
 						</div>
 					</div>
