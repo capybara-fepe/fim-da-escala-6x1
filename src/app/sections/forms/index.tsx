@@ -2,8 +2,8 @@ import EmailBadge from './email-badge'
 
 export default function Forms() {
 	return (
-		<div className="grid grid-cols-12 gap-6">
-			<div className="space-y-4 col-span-full lg:col-span-5 lg:col-start-2">
+		<div className="grid grid-cols-12 gap-6 min-h-screen">
+			<div className="space-y-4 col-span-full lg:col-span-4 lg:col-start-2">
 				<h2 className="font-guildhall text-4xl md:5xl lg:text-6xl">
 					Vamos pressionar!
 				</h2>
@@ -15,8 +15,8 @@ export default function Forms() {
 				</p>
 			</div>
 
-			<div className="col-span-full lg:col-span-5">
-				<form action="" className="bg-gray-100 p-6 space-y-5 text-black  ">
+			<div className="col-span-full lg:col-start-7 lg:col-span-5">
+				<form action="" className="bg-gray-100 p-6 space-y-5 text-black">
 					<div className="space-y-5">
 						<div className="space-y-2">
 							<label htmlFor="" className="block font-semibold">
