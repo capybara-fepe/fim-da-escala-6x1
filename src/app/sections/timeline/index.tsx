@@ -8,7 +8,7 @@ export default function Timeline() {
 	const isMoreThanMd = windowWidth ? windowWidth > 768 : false
 
 	return (
-		<div className="space-y-20 h-screen">
+		<div className="space-y-20 min-h-screen">
 			<div className="flex justify-end md:justify-center">
 				<h2 className="font-guildhall w-1/2 text-5xl lg:text-6xl text-right md:text-center">
 					Linha do Tempo
